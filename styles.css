@@ -1,0 +1,19 @@
+/* === BACKGROUND === */
+
+html {
+    cursor: url('images/Cursor.png'), auto !important;
+}
+
+Body{
+  background-color: #121212;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: ivory;
+}
+
+/* === BASE STYLE === */
+
+/* === IMAGE STYLE === */
+.resized-image {
+  width: 450px;
+  height: auto; /* 'auto' maintains the aspect ratio */
+}
