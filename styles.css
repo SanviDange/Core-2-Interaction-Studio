@@ -69,7 +69,6 @@ a .thumbnail:hover {
 
 .img1:hover {
     transform: rotate(-10deg) scale(1.2);
-    position: relative;
     z-index: 10;
 }
 
@@ -80,8 +79,7 @@ a .thumbnail:hover {
 }
 
 .img2:hover {
-    transform: rotate(-15deg) scale(1.2);
-    position: relative;
+    transform: rotate(15deg) scale(1.2);
     z-index: 10;
 }
 
@@ -92,8 +90,7 @@ a .thumbnail:hover {
 }
 
 .img3:hover {
-    transform: rotate(5deg) scale(1.2);
-    position: relative;
+    transform: rotate(-5deg) scale(1.2);
     z-index: 10;
 }
 
@@ -104,8 +101,7 @@ a .thumbnail:hover {
 }
 
 .img4:hover {
-    transform: rotate(-5deg) scale(1.2);
-    position: relative;
+    transform: rotate(5deg) scale(1.2);
     z-index: 10;
 }
 
@@ -116,8 +112,7 @@ a .thumbnail:hover {
 }
 
 .img5:hover {
-    transform: rotate(-51deg) scale(1.2);
-    position: relative;
+    transform: rotate(51deg) scale(1.2);
     z-index: 10;
 }
 
@@ -128,8 +123,7 @@ a .thumbnail:hover {
 }
 
 .img6:hover {
-    transform: rotate(20deg) scale(1.2);
-    position: relative;
+    transform: rotate(-20deg) scale(1.2);
     z-index: 10;
 }
 
@@ -140,8 +134,7 @@ a .thumbnail:hover {
 }
 
 .img7:hover {
-    transform: rotate(-5deg) scale(1.2);
-    position: relative;
+    transform: rotate(5deg) scale(1.2);
     z-index: 10;
 }
 
