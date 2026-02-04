@@ -13,25 +13,41 @@ html {
 
 Body{
   background-color: #121212;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Times New Roman', Times, serif;
   color: ivory;
 }
 
 /* === BASE STYLE === */
-html, body {
-    height: 100%;
+body {
     margin: 0;
-    padding: 0;
+    overflow: hidden; /* Hide scrollbar during splash screen */
 }
 
-.full-page-link {
-    display: block; /* Makes the link behave like a div (block-level element) */
+#splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    text-decoration: none; /* Removes the default underline */
-    color: inherit; /* Inherit text color from parent or default */
-    cursor: pointer; /* Ensures the cursor shows as a pointer everywhere */
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 100; /* Ensure it's on top of everything */
 }
+
+#main-content {
+    padding: 20px;
+    position: relative; /* Add this so absolute positioned images work */
+    min-height: 100vh; /* Make sure body is tall enough for scattered images */
+}
+
+.hidden {
+    display: none !important;
+}
+
 
 /* === IMAGE STYLE === */
 .resized-image {
