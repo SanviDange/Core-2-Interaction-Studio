@@ -136,8 +136,8 @@ a .thumbnail:hover {
 }
 
 .img5 {
-    bottom: 800px;
-    left: 90%;
+    top: 500px;
+    right: 50%;
     transform: rotate(-51deg);
 }
 
